@@ -1,8 +1,8 @@
-﻿using Discord.LLM.Conversation.Compare.Models.Interfaces;
+﻿using Discord.LLM.Conversation.Compare.Interfaces;
 using Discord.LLM.Conversation.Compare.Models.Models.Base;
 using Microsoft.Extensions.Configuration;
 
-namespace Discord.LLM.Conversation.Compare.Models;
+namespace Discord.LLM.Conversation.Compare.Models.Mirror;
 
 public class MirrorProvider : BaseModelSettings, IModelProvider
 {

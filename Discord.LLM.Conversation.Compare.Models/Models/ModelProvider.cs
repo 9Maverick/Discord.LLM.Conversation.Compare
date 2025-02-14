@@ -1,4 +1,6 @@
-﻿using Discord.LLM.Conversation.Compare.Models.Interfaces;
+﻿using Discord.LLM.Conversation.Compare.Interfaces;
+using Discord.LLM.Conversation.Compare.Models.Mirror;
+using Discord.LLM.Conversation.Compare.Models.OpenAI;
 using Microsoft.Extensions.Configuration;
 
 namespace Discord.LLM.Conversation.Compare.Models.Models;

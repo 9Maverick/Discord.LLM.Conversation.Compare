@@ -1,10 +1,10 @@
-﻿using Discord.LLM.Conversation.Compare.Models.Interfaces;
+﻿using Discord.LLM.Conversation.Compare.Interfaces;
 using Discord.LLM.Conversation.Compare.Models.Models.Base;
 using Microsoft.Extensions.AI;
 using Microsoft.Extensions.Configuration;
 using OpenAI;
 
-namespace Discord.LLM.Conversation.Compare.Models;
+namespace Discord.LLM.Conversation.Compare.Models.OpenAI;
 
 public class OpenAiProvider : BaseModelSettings, IModelProvider
 {

@@ -1,4 +1,4 @@
-﻿namespace Discord.LLM.Conversation.Compare.Models.Interfaces;
+﻿namespace Discord.LLM.Conversation.Compare.Interfaces;
 
 public interface IModelSettings
 {
